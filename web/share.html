@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244b3e">
+  <meta name="referrer" content="no-referrer">
+  <title>走失位置分享 · DOOGY</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .share-page { max-width: 620px; margin: 0 auto; padding: 28px 16px 48px; }
+    .share-page .brand { color: var(--forest); }
+    .share-page .page-heading { align-items: center; flex-wrap: wrap; }
+    .share-page .panel [data-pet] { overflow-wrap: anywhere; }
+    .share-page .detail-row dd { min-width: 0; overflow-wrap: anywhere; }
+    .share-page .hint { line-height: 1.7; }
+  </style>
+  <script type="module" src="./share.mjs"></script>
+</head>
+<body>
+  <main class="share-page">
+    <div class="brand">DOOGY</div>
+    <header class="page-heading">
+      <h1>走失位置分享</h1>
+      <button id="refresh" class="button" type="button" disabled>刷新位置</button>
+    </header>
+    <p id="status" class="hint" role="status">正在读取分享…</p>
+    <div id="result" class="stack" hidden></div>
+    <template id="summary">
+      <section class="panel">
+        <div class="panel-head"><h2 data-pet></h2></div>
+        <dl class="detail-list">
+          <div class="detail-row"><dt>分享有效至</dt><dd data-expires></dd></div>
+          <div class="detail-row"><dt>本次读取时间</dt><dd data-read-time></dd></div>
+        </dl>
+        <p class="hint">点击「刷新位置」获取最新记录并检查分享状态。</p>
+      </section>
+    </template>
+    <template id="point">
+      <section class="panel">
+        <div class="panel-head"><h2 data-title></h2></div>
+        <p class="hint" data-caption></p>
+        <dl class="detail-list">
+          <div class="detail-row"><dt>纬度 / 经度（WGS84）</dt><dd data-coordinate></dd></div>
+          <div class="detail-row"><dt>采样时间</dt><dd data-sampled></dd></div>
+          <div class="detail-row"><dt>上报精度</dt><dd data-accuracy></dd></div>
+          <div class="detail-row"><dt>定位来源</dt><dd data-source></dd></div>
+          <div class="detail-row"><dt>采样新鲜度</dt><dd data-freshness></dd></div>
+        </dl>
+      </section>
+    </template>
+    <noscript>启用 JavaScript 后即可查看分享位置。</noscript>
+  </main>
+</body>
+</html>

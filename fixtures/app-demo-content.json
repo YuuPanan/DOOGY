@@ -1,0 +1,339 @@
+{
+  "items": [
+    {
+      "id": "840b0000-0000-4000-8000-000000000001",
+      "kind": "lesson",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 认识今天页面",
+        "category": "basics",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：先进入今天，观察未知与合成记录的区别。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-1"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": {
+          "video": null,
+          "steps": [
+            {
+              "id": "read",
+              "title": "阅读合成演示边界",
+              "body": "合成步骤：先进入今天，观察未知与合成记录的区别。"
+            },
+            {
+              "id": "try",
+              "title": "尝试并复读软件操作",
+              "body": "合成步骤：尝试切换页面并返回今天。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000002",
+      "kind": "lesson",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 记录与复读",
+        "category": "basics",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：打开照护，新增合成笔记，再读取同一条记录。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-2"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": {
+          "video": null,
+          "steps": [
+            {
+              "id": "read",
+              "title": "阅读合成演示边界",
+              "body": "合成步骤：打开照护，新增合成笔记，再读取同一条记录。"
+            },
+            {
+              "id": "try",
+              "title": "尝试并复读软件操作",
+              "body": "合成步骤：确认记录属于当前所选宠物。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000003",
+      "kind": "lesson",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 保存本人学习进度",
+        "category": "basics",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：勾选本页步骤并保存，再次读取本课程。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-3"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": {
+          "video": null,
+          "steps": [
+            {
+              "id": "read",
+              "title": "阅读合成演示边界",
+              "body": "合成步骤：勾选本页步骤并保存，再次读取本课程。"
+            },
+            {
+              "id": "try",
+              "title": "尝试并复读软件操作",
+              "body": "合成步骤：学习记录只是本人的界面操作记录。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000004",
+      "kind": "lesson",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 人工标签练习",
+        "category": "behavior",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：读取合成人工标签，区分标签原文与离线固定演示。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-4"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": {
+          "video": null,
+          "steps": [
+            {
+              "id": "read",
+              "title": "阅读合成演示边界",
+              "body": "合成步骤：读取合成人工标签，区分标签原文与离线固定演示。"
+            },
+            {
+              "id": "try",
+              "title": "尝试并复读软件操作",
+              "body": "合成步骤：不把合成标签理解为识别结果。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000005",
+      "kind": "lesson",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 理解解释边界",
+        "category": "behavior",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：查看离线演示的来源和未知信息。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-5"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": {
+          "video": null,
+          "steps": [
+            {
+              "id": "read",
+              "title": "阅读合成演示边界",
+              "body": "合成步骤：查看离线演示的来源和未知信息。"
+            },
+            {
+              "id": "try",
+              "title": "尝试并复读软件操作",
+              "body": "合成步骤：本例没有模型分析、情绪或医学结论。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000006",
+      "kind": "plan",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 运动计划填表练习",
+        "category": "exercise",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：这组分钟数只测试计划草稿、保存和版本复读，不适用于任何真实宠物。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-6"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": null,
+        "exercise_plan": {
+          "walk_minutes": 2,
+          "play_minutes": 1,
+          "training_minutes": 1
+        }
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000007",
+      "kind": "guidance",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 喂养页面流程说明",
+        "category": "nutrition",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：用合成标签能量练习记录；没有标签的数据保持未知。本内容不提供食谱或喂养量建议。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-7"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": null
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000008",
+      "kind": "guidance",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 身体观察页面流程说明",
+        "category": "health",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：练习保存四项原文与查看完整日评估。本内容不提供诊断、治疗或居家护理建议。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-8"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": null
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000009",
+      "kind": "tip",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 行为记录流程提示",
+        "category": "behavior",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：练习人工标签、合成媒体引用和反馈。本内容不解释真实行为或情绪。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-9"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": null
+      }
+    },
+    {
+      "id": "840b0000-0000-4000-8000-000000000010",
+      "kind": "guidance",
+      "content_version": 1,
+      "expected_revision": 0,
+      "status": "published",
+      "content": {
+        "title": "合成演示 · 运动页面流程说明",
+        "category": "exercise",
+        "summary": "仅用于 DOOGY 软件流程演示，不是宠物专业建议。",
+        "body": "合成演示内容：练习区分目标、计划和实际活动；合成分钟数不是运动处方。\n本包仅验证页面操作与保存复读，没有真实专业内容审核。",
+        "applicability": "仅适用于合成账号、合成宠物与软件界面测试；不适用于真实宠物照护、医疗、训练或营养决策。",
+        "sources": [
+          {
+            "title": "合成演示源（非专业资料）",
+            "reference": "fixtures/app-demo-content.json#synthetic-10"
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "仅软件流程审阅",
+          "reviewed_at": "2026-11-01T00:00:00.000Z"
+        },
+        "lesson": null
+      }
+    }
+  ]
+}

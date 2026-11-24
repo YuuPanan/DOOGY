@@ -1,0 +1,18 @@
+{
+  "description": "纯合成的上海附近坐标；用于验证安全区状态转换，不代表真实项圈定位能力。",
+  "geometry": { "type": "circle", "lat": 31.23, "lon": 121.47, "radius_m": 100 },
+  "locations": [
+    { "relative_time_seconds": -120, "lat": 31.23, "lon": 121.47, "accuracy_m": 8, "source": "gnss", "battery_pct": 15 },
+    { "relative_time_seconds": -100, "lat": 31.232, "lon": 121.47, "accuracy_m": 8, "source": "gnss", "battery_pct": 15 },
+    { "relative_time_seconds": -80, "lat": 31.2321, "lon": 121.47, "accuracy_m": 8, "source": "gnss", "battery_pct": 15 },
+    { "relative_time_seconds": -60, "lat": 31.23, "lon": 121.47, "accuracy_m": 8, "source": "gnss", "battery_pct": 15 },
+    { "relative_time_seconds": -40, "lat": 31.2301, "lon": 121.47, "accuracy_m": 8, "source": "gnss", "battery_pct": 15 }
+  ],
+  "activity": {
+    "start_relative_seconds": -620,
+    "end_relative_seconds": -20,
+    "steps": 600,
+    "active_seconds": 300,
+    "estimated": true
+  }
+}
