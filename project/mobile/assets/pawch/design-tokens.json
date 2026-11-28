@@ -1,0 +1,47 @@
+{
+  "source": "Figma Page 1 | Components & assets",
+  "palette": {
+    "canvas": "#FAF9F2",
+    "forest": "#183D34",
+    "inkMuted": "#61736A",
+    "sage": "#E8EEDC",
+    "citron": "#D9F46B",
+    "alertFill": "#FFE5AC",
+    "alert": "#F2BE58",
+    "uncertainFill": "#FFF0CF",
+    "uncertainInk": "#825315",
+    "white": "#FFFFFF"
+  },
+  "geometry": {
+    "artboard": [
+      390,
+      844
+    ],
+    "mainContentWidth": 342,
+    "button": {
+      "width": 342,
+      "height": 52,
+      "radius": 16
+    },
+    "navigationTab": {
+      "width": 72,
+      "height": 61,
+      "activeRadius": 16
+    },
+    "listRow": {
+      "width": 342,
+      "height": 64,
+      "radius": 16
+    },
+    "statusChip": {
+      "radius": 19,
+      "height": 38
+    },
+    "metricCardRadius": 20
+  },
+  "notes": [
+    "Values are measured in the Figma source; scale/adapt in React Native.",
+    "SVG text is outlined; use real Text with Figma typography, not the outlined copy.",
+    "Recreate interactive components and dynamic charts as code. Only static illustrations and icons are runtime candidates."
+  ]
+}
